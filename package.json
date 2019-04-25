@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airbnb-vue",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "基于airbnb标准定制的一套eslint规范plugin",
   "main": "index.js",
   "scripts": {
