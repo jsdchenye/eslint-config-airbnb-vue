@@ -2,8 +2,8 @@
 
 module.exports = {
   parser: 'babel-eslint', // class properties
-  extends: ['airbnb'],
-  plugins: ["flowtype", "import"],
+  extends: ['airbnb', "plugin:vue/recommended"],
+  plugins: ["flowtype", "import", "vue"],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module', // es6 import/export
@@ -21,6 +21,16 @@ module.exports = {
   ** "error" 或 2 - 开启规则，使用错误级别的错误：error (当被触发的时候，程序会退出)
   */
   rules: {
+    "flowtype/boolean-style": "off",
+    "flowtype/delimiter-dangle": "off",
+    "flowtype/generic-spacing": "off",
+    "flowtype/object-type-delimiter": "off",
+    "flowtype/semi": "off",
+    "flowtype/space-after-type-colon": "off",
+    "flowtype/space-before-generic-bracket": "off",
+    "flowtype/space-before-type-colon": "off",
+    "flowtype/union-intersection-spacing": "off",
+
     "vue/html-self-closing": 0,
     "vue/array-bracket-spacing": "off",
     "vue/html-closing-bracket-newline": "off",
