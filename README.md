@@ -35,6 +35,8 @@ Then, add this to your .eslintrc file:
 *Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+## Rules
+> [vue/html-self-closing] 将自动关闭标志强制为已配置的样式
 
 ## Learn more
 

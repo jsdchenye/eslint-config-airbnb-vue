@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     {{ message }}
+      <img>
   </div>
 </template>
 <script>
