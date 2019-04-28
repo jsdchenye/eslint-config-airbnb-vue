@@ -44,7 +44,15 @@ module.exports = {
       svg: 'always',
       math: 'always',
     }],
+
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/v-bind-style': 2,
+    'vue/v-on-style': 2,
+
+    'vue/attributes-order': 0,
     'vue/no-v-html': 2,
+    'vue/this-in-template': 2,
+
     'vue/no-unused-vars': 'error',
   },
 };
