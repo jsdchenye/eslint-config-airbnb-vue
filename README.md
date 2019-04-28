@@ -47,9 +47,9 @@ Eg. in my vs:
 
 ## Learn more
 For the full listing of rules, editor plugins, FAQs, and more, visit the main<br />
-[Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).
-[Airbnb Vue Style repo](https://eslint.vuejs.org/rules)
-[Airbnb Prettier repo](https://prettier.io/docs/en/integrating-with-linters.html)
+[Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).<br />
+[Airbnb Vue Style repo](https://eslint.vuejs.org/rules).<br />
+[Airbnb Prettier repo](https://prettier.io/docs/en/integrating-with-linters.html).<br />
 
 ## License
 MIT
