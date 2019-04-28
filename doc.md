@@ -2,11 +2,11 @@
 [custome recommended rule] (https://eslint.vuejs.org/rules)
 
 ## Rules
-<i><b>Tip: edit some rule baseed on eslint-plugin-vue(recommended)</b></i> <br />
+<i><b>Tip: edit some rule baseed on eslint-plugin-vue(recommended)</b></i><br />
 
 [Strongly Recommended]
 > <b>vue/attribute-hyphenation</b><br />
-Enforce attribute naming style on custom components in template
+<i>Enforce attribute naming style on custom components in template</i>
 ```vue
 <template>
   <!-- ✔ GOOD -->
@@ -18,7 +18,7 @@ Enforce attribute naming style on custom components in template
 ```
 
 > <b>vue/html-closing-bracket-newline</b><br />
-Require or disallow a line break before tag's closing brackets
+<i>Require or disallow a line break before tag's closing brackets</i>
 ```vue
 <!-- ✔ GOOD -->
 <div
@@ -34,7 +34,7 @@ Require or disallow a line break before tag's closing brackets
 ```
 
 > <b>vue/html-closing-bracket-spacing</b><br />
-Require or disallow a space before tag's closing brackets
+<i>Require or disallow a space before tag's closing brackets</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -58,7 +58,7 @@ Require or disallow a space before tag's closing brackets
 ```
 
 > <b>vue/html-end-tags</b><br />
-Enforce end tag style
+<i>Enforce end tag style</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -75,7 +75,7 @@ Enforce end tag style
 ```
 
 > <b>vue/html-self-closing</b><br />
-This rule aims to enforce the self-closing sign as the configured style
+<i>This rule aims to enforce the self-closing sign as the configured style</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -92,10 +92,10 @@ This rule aims to enforce the self-closing sign as the configured style
 ```
 
 > <b>vue/max-attributes-per-line</b><br />
-Enforce the maximum number of attributes per line [ off ]
+<i>Enforce the maximum number of attributes per line [ off ]</i>
 
 > <b>vue/no-template-shadow</b><br />
-Disallow variable declarations from shadowing variables declared in the outer scope
+<i>Disallow variable declarations from shadowing variables declared in the outer scope</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -113,10 +113,10 @@ Disallow variable declarations from shadowing variables declared in the outer sc
 ```
 
 > <b>vue/singleline-html-element-content-newline</b><br />
-Require a line break before and after the contents of a singleline element [ off ]
+<i>Require a line break before and after the contents of a singleline element [ off ]</i>
 
 > <b>vue/v-bind-style</b><br />
-Enforce v-bind directive style
+<i>Enforce v-bind directive style</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -128,7 +128,7 @@ Enforce v-bind directive style
 ```
 
 > <b>vue/v-on-style</b><br />
-Enforce v-on directive style
+<i>Enforce v-on directive style</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -141,10 +141,10 @@ Enforce v-on directive style
 
 [ Recommended ]
 > <b>vue/attributes-order</b><br />
-Enforce order of attributes [ off ]
+<i>Enforce order of attributes [ off ]</i>
 
 > <b>vue/no-v-html</b><br />
-Reports all uses of v-html directive(XSS)
+<i>Reports all uses of v-html directive(XSS)</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -156,7 +156,7 @@ Reports all uses of v-html directive(XSS)
 ```
 
 > <b>vue/this-in-template</b><br />
-Disallow usage of this in template
+<i>Disallow usage of this in template</i>
 ```vue
 <template>
   <!-- ✓ GOOD -->
