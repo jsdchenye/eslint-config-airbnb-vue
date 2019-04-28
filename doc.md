@@ -5,7 +5,7 @@
 <i>Tip: edit some rule baseed on eslint-plugin-vue(recommended)</i> <br />
 
 [Strongly Recommended]
-> vue/attribute-hyphenation
+> vue/attribute-hyphenation<br />
 Enforce attribute naming style on custom components in template
 ```vue
 <template>
@@ -17,7 +17,7 @@ Enforce attribute naming style on custom components in template
 </template>
 ```
 
-> vue/html-closing-bracket-newline
+> vue/html-closing-bracket-newline<br />
 Require or disallow a line break before tag's closing brackets
 ```vue
 <!-- ✔ GOOD -->
@@ -33,7 +33,7 @@ Require or disallow a line break before tag's closing brackets
 </div>
 ```
 
-> vue/html-closing-bracket-spacing
+> vue/html-closing-bracket-spacing<br />
 Require or disallow a space before tag's closing brackets
 ```vue
 <template>
@@ -57,7 +57,7 @@ Require or disallow a space before tag's closing brackets
 </template>
 ```
 
-> vue/html-end-tags
+> vue/html-end-tags<br />
 Enforce end tag style
 ```vue
 <template>
@@ -74,7 +74,7 @@ Enforce end tag style
 </template>
 ```
 
-> vue/html-self-closing
+> vue/html-self-closing<br />
 This rule aims to enforce the self-closing sign as the configured style
 ```vue
 <template>
@@ -91,10 +91,10 @@ This rule aims to enforce the self-closing sign as the configured style
 </template>
 ```
 
-> vue/max-attributes-per-line
+> vue/max-attributes-per-line<br />
 Enforce the maximum number of attributes per line [ off ]
 
-> vue/no-template-shadow
+> vue/no-template-shadow<br />
 Disallow variable declarations from shadowing variables declared in the outer scope
 ```vue
 <template>
@@ -112,10 +112,10 @@ Disallow variable declarations from shadowing variables declared in the outer sc
 </template>
 ```
 
-> vue/singleline-html-element-content-newline
+> vue/singleline-html-element-content-newline<br />
 Require a line break before and after the contents of a singleline element [ off ]
 
-> vue/v-bind-style
+> vue/v-bind-style<br />
 Enforce v-bind directive style
 ```vue
 <template>
@@ -127,7 +127,7 @@ Enforce v-bind directive style
 </template>
 ```
 
-> vue/v-on-style
+> vue/v-on-style<br />
 Enforce v-on directive style
 ```vue
 <template>
@@ -140,10 +140,10 @@ Enforce v-on directive style
 ```
 
 [ Recommended ]
-> vue/attributes-order
+> vue/attributes-order<br />
 Enforce order of attributes [ off ]
 
-> vue/no-v-html
+> vue/no-v-html<br />
 Reports all uses of v-html directive(XSS)
 ```vue
 <template>
@@ -155,7 +155,7 @@ Reports all uses of v-html directive(XSS)
 </template>
 ```
 
-> vue/this-in-template
+> vue/this-in-template<br />
 Disallow usage of this in template
 ```vue
 <template>
