@@ -46,7 +46,10 @@ Eg. in my vs:
 [doc.md](./doc.md)
 
 ## Learn more
-For the full listing of rules, editor plugins, FAQs, and more, visit the main [Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).
+For the full listing of rules, editor plugins, FAQs, and more, visit the main<br />
+[Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).
+[Airbnb Vue Style repo](https://eslint.vuejs.org/rules)
+[Airbnb Prettier repo](https://prettier.io/docs/en/integrating-with-linters.html)
 
 ## License
 MIT
