@@ -44,6 +44,7 @@ module.exports = {
       svg: 'always',
       math: 'always',
     }],
+    'vue/no-v-html': 2,
     'vue/no-unused-vars': 'error',
   },
 };

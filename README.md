@@ -26,7 +26,7 @@ Then, add this to your .eslintrc file:
   "extends": ["airbnb-vue"]
 }
 ```
-Tip: to check your .vue .html .js，you need to edit your editor's perference.
+Tip: to check your .vue/\.html/\.js，you need to edit your editor's perference.
 Eg. in my vs:
 ```
 "eslint.autoFixOnSave": true,  //  启用保存时自动修复,默认只支持.js文件
@@ -42,22 +42,8 @@ Eg. in my vs:
   },
 ],
 ```
-
-## Rules
-> [vue/html-self-closing] 将自动关闭标志强制为已配置的样式
-```
-<template>
-<!-- Good -->
- <div></div>
-<img/>
-<div class="test" />
-<MyComponent/>
-<!-- Bad -->
-<img>
-<div class="test"></div>
-<MyComponent></MyComponent>
-</template>
-```
+## Docs
+[doc.md](./doc.md)
 
 ## Learn more
 For the full listing of rules, editor plugins, FAQs, and more, visit the main [Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).
