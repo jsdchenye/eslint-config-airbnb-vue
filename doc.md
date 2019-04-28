@@ -4,7 +4,7 @@
 ## Rules
 <i><b>Tip: edit some rule baseed on eslint-plugin-vue(recommended)</b></i><br />
 
-[Strongly Recommended]
+### Strongly Recommended
 > <b>vue/attribute-hyphenation</b><br />
 <i>Enforce attribute naming style on custom components in template</i>
 ```vue
@@ -139,7 +139,7 @@
 </template>
 ```
 
-[ Recommended ]
+### Recommended
 > <b>vue/attributes-order</b><br />
 <i>Enforce order of attributes [ off ]</i>
 
