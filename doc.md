@@ -1,12 +1,12 @@
  ## Refer
 [custome recommended rule] (https://eslint.vuejs.org/rules)
-change all the rule to be error to enforce code style.
 
 ## Rules
 <i>Tip: edit some rule baseed on eslint-plugin-vue(recommended)</i> <br />
 
 [Strongly Recommended]
-> vue/attribute-hyphenation:  Enforce attribute naming style on custom components in template
+> vue/attribute-hyphenation
+Enforce attribute naming style on custom components in template
 ```vue
 <template>
   <!-- ✔ GOOD -->
@@ -17,7 +17,8 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/html-closing-bracket-newline: Require or disallow a line break before tag's closing brackets
+> vue/html-closing-bracket-newline
+Require or disallow a line break before tag's closing brackets
 ```vue
 <!-- ✔ GOOD -->
 <div
@@ -32,7 +33,8 @@ change all the rule to be error to enforce code style.
 </div>
 ```
 
-> vue/html-closing-bracket-spacing: Require or disallow a space before tag's closing brackets
+> vue/html-closing-bracket-spacing
+Require or disallow a space before tag's closing brackets
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -55,7 +57,8 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/html-end-tags:  Enforce end tag style
+> vue/html-end-tags
+Enforce end tag style
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -71,7 +74,8 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/html-self-closing:  将自动关闭标志强制为已配置的样式
+> vue/html-self-closing
+This rule aims to enforce the self-closing sign as the configured style
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -87,9 +91,11 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/max-attributes-per-line:  Enforce the maximum number of attributes per line [ off ]
+> vue/max-attributes-per-line
+Enforce the maximum number of attributes per line [ off ]
 
-> vue/no-template-shadow: Disallow variable declarations from shadowing variables declared in the outer scope
+> vue/no-template-shadow
+Disallow variable declarations from shadowing variables declared in the outer scope
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -106,9 +112,11 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/singleline-html-element-content-newline:  Require a line break before and after the contents of a singleline element
+> vue/singleline-html-element-content-newline
+Require a line break before and after the contents of a singleline element [ off ]
 
-> vue/v-bind-style:  Enforce v-bind directive style
+> vue/v-bind-style
+Enforce v-bind directive style
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -119,7 +127,8 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/v-on-style:  Enforce v-on directive style
+> vue/v-on-style
+Enforce v-on directive style
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -131,9 +140,11 @@ change all the rule to be error to enforce code style.
 ```
 
 [ Recommended ]
-> vue/attributes-order:  Enforce order of attributes [ off ]
+> vue/attributes-order
+Enforce order of attributes [ off ]
 
-> vue/no-v-html:  reports all uses of v-html directive(XSS)
+> vue/no-v-html
+Reports all uses of v-html directive(XSS)
 ```vue
 <template>
   <!-- ✓ GOOD -->
@@ -144,7 +155,8 @@ change all the rule to be error to enforce code style.
 </template>
 ```
 
-> vue/this-in-template:  Disallow usage of this in template
+> vue/this-in-template
+Disallow usage of this in template
 ```vue
 <template>
   <!-- ✓ GOOD -->
