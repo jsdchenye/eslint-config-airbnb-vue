@@ -1,4 +1,4 @@
-# Airbnb Vue - ESLint Shareable Config
+# Airbnb Vue - ESLint With VUE && Prettier
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
@@ -17,7 +17,7 @@ npm install eslint-config-airbnb-vue
 ```
 
 ## Usage
-The config is based on `eslint-config-airbnb-base` and `eslint-plugin-vue`.
+The config is based on `eslint-config-airbnb-base` and `eslint-plugin-vue` and `eslint-config-prettier`.
 
 Then, add this to your .eslintrc file:
 
