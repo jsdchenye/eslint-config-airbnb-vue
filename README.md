@@ -17,31 +17,32 @@ npm install eslint-config-airbnb-vue
 ```
 
 ## Usage
-
-Here's how to install everything you need:
-
-```bash
-npm install eslint-config-airbnb eslint-config-airbnb-vue
-```
+The config is based on `eslint-config-airbnb-base` and `eslint-plugin-vue`.
 
 Then, add this to your .eslintrc file:
 
 ```
 {
-  "extends": ["airbnb", "airbnb-vue"]
+  "extends": ["airbnb-vue"]
 }
 ```
 
 *Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+
 ## Rules
 > [vue/html-self-closing] 将自动关闭标志强制为已配置的样式
+```
+<template>
+<!-- Good -->
+
+<!-- Bad -->
+</template>
+```
 
 ## Learn more
-
 For the full listing of rules, editor plugins, FAQs, and more, visit the main [Airbnb JavaScript Style repo](https://github.com/airbnb/javascript).
 
 ## License
-
 MIT
