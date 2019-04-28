@@ -1,10 +1,10 @@
 // 'use strict';
 
 module.exports = {
-  parser: 'vue-eslint-parser', // class properties
-  extends: ['airbnb', 'plugin:vue/recommended'],
-  plugins: ['flowtype', 'import', 'jsx-a11y', 'vue'],
+  extends: ['airbnb-base', 'plugin:vue/recommended'],
+  plugins: ['flowtype', 'import', 'vue'],
   parserOptions: {
+    parser: 'babel-eslint', // class properties
     ecmaVersion: 2018,
     sourceType: 'module', // es6 import/export
   },
