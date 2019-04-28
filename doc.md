@@ -26,9 +26,39 @@
   <!-- ✗ BAD -->
   <div v-html="someHTML"></div>
 </template>
-```vue/order-in-components 💬Enforce order of properties in components
+```
+> vue/order-in-components 💬Enforce order of properties in components
+```vue
+<script>
+/* ✓ GOOD */
+export default {
+  name: 'app',
+  props: {
+    propA: Number
+  },
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  }
+}
+</script>
+<script>
+/* ✗ BAD */
+export default {
+  name: 'app',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  props: {
+    propA: Number
+  }
+}
+</script>
+```
 
-> 
 
-## Refer
+ ## Refer
 (https://eslint.vuejs.org/rules)
