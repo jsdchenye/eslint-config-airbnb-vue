@@ -35,6 +35,10 @@ module.exports = {
     'flowtype/space-before-type-colon': 'off',
     'flowtype/union-intersection-spacing': 'off',
 
+    'vue/attribute-hyphenation': 2,
+    'vue/html-closing-bracket-newline': 2,
+    'vue/html-closing-bracket-spacing': 2,
+    'vue/html-end-tags': 2,
     'vue/html-self-closing': ['error', {
       html: {
         void: 'always',
@@ -45,6 +49,8 @@ module.exports = {
       math: 'always',
     }],
 
+    'vue/max-attributes-per-line': 0,
+    'vue/no-template-shadow': 2,
     'vue/singleline-html-element-content-newline': 0,
     'vue/v-bind-style': 2,
     'vue/v-on-style': 2,
@@ -52,7 +58,5 @@ module.exports = {
     'vue/attributes-order': 0,
     'vue/no-v-html': 2,
     'vue/this-in-template': 2,
-
-    'vue/no-unused-vars': 'error',
   },
 };
